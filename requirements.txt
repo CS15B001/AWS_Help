@@ -3,5 +3,5 @@ pandas
 scipy
 sklearn
 IPython
-PIL
+pillow
 simplejson

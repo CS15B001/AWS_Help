@@ -2,3 +2,6 @@ Step 1: Install Pip
 sudo apt install python-pip
 
 Step 2:  
+Use requirements.txt file in AWS_Help repository to install modules
+git clone https://github.com/CS15B001/AWS_Help.git
+
