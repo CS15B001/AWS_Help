@@ -1,0 +1,6 @@
+Step 1: Choose ami-43949554 to launch an instance with CUDA installed. Region has to be N.Virginia.
+
+Step 2: Choose request-spot when launching instance. Make sure that availibility zone (subnet) is selected properly, i.e., if us-east-d has the lowest price, choose that subnet
+
+Step 3: Associate with one of the key pairs and preferably place it in the /home/ameet/.ssh/ folder and launch a session from there
+
