@@ -4,4 +4,7 @@ sudo apt install python-pip
 Step 2:  
 Use requirements.txt file in AWS_Help repository to install modules
 git clone https://github.com/CS15B001/AWS_Help.git
+sudo pip install -r requirements.txt
 
+Step 3:
+sudo pip install tensorflow-gpu==1.3 (Or required version)

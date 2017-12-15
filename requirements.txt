@@ -5,3 +5,4 @@ sklearn
 IPython
 pillow
 simplejson
+tensorflow-gpu==1.0.1
