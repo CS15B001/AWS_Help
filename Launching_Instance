@@ -4,3 +4,4 @@ Step 2: Choose request-spot when launching instance. Make sure that availibility
 
 Step 3: Associate with one of the key pairs and preferably place it in the /home/ameet/.ssh/ folder and launch a session from there
 
+Step 4: chmod 600 keypair.pem. Change the permissions so that the key pair is secure. The default permissions might be 777
