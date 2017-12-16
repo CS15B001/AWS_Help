@@ -1,6 +1,15 @@
 Step 1: Install Pip
 sudo apt install python-pip
 
+sudo pip install --upgrade pip # If upgrade is needed
+
+Note that it takes about 5-10 minutes to get the lock. Running this command throws the following error before that
+
+Error:
+E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
+E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+
+
 Step 2:  
 Use requirements.txt file in AWS_Help repository to install modules
 git clone https://github.com/CS15B001/AWS_Help.git
