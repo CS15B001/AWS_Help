@@ -14,6 +14,8 @@ Step 6: scp -i mypermission.pem /path_to_file ubuntu@ec2-54-210-250-96.compute-1
 Note that the user should not be ubuntu@ip_*** but the above
 Note that when I tried doing scp to mount_point, it gave permission denied. scp to the root directory and then move it to mount_point. The permission problem is mostly related to sudo
 
+When scp is being used to transfer from remote to local, you could get permission denied at times. Just chmod 777 that file/folder.
+
 Step 7: Unmount the volume before terminating the spot instance
 umount -d /dev/"name_from_step_2"
 
